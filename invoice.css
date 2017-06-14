@@ -1,0 +1,126 @@
+#container {
+  font: normal 13px/1.4em 'Open Sans', Sans-serif;
+  margin: 0 auto;
+  padding: 50px 40px;
+  min-height: 1058px;
+}
+
+#memo .company-name {
+  background: #8BA09E url("../arrows.png") 560px center no-repeat;
+  background-size: 100px auto;
+  padding: 10px 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+#memo .company-name span {
+  color: white;
+  display: inline-block;
+  min-width: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1em;
+}
+#memo .company-name .right-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  background: url("../right-arrow.png") right center no-repeat;
+  background-size: auto 60px;
+}
+#memo .shop-info {
+  float: left;
+  clear: left;
+  margin-left: 20px;
+  border-style: solid;
+}
+#memo .Invoice{
+ float: right;
+  clear: left;
+  margin-left: 20px;
+  border-style: solid;
+}
+#memo .cust-info {
+  margin-left: 20px;
+  float: left;
+  font-size: 12px;
+  border-style: solid;
+}
+#items {
+  margin: 20px 0 35px 0;
+}
+#items .first-cell, #items table th:first-child, #items table td:first-child {
+  width: 18px;
+  text-align: right;
+}
+#items table {
+  border-collapse: separate;
+  width: 100%;
+}
+#items table th {
+  padding: 12px 10px;
+  text-align: right;
+  background: #E6E7E7;
+  border-bottom: 4px solid #487774;
+}
+#items table th:nth-child(2) {
+  width: 30%;
+  text-align: left;
+}
+
+#items table th:last-child {
+  text-align: right;
+  padding-right: 20px !important;
+}
+#items table td {
+  padding: 15px 10px;
+  text-align: right;
+  border-right: 1px solid #CCCCCF;
+}
+
+#items table td:first-child {
+  text-align: left;
+  border-right: 0 !important;
+}
+
+#items table td:nth-child(2) {
+  text-align: left;
+}
+
+#items table td:last-child {
+  border-right: 0 !important;
+  padding-right: 20px !important;
+}
+#sums {
+  float: right;
+  background: #8BA09E url("../left-arrow.png") -17px bottom no-repeat;
+  background-size: auto 100px;
+  color: white;
+}
+#sums table tr th, #sums table tr td {
+  min-width: 100px;
+  padding: 8px 20px 8px 35px;
+  text-align: right;
+  font-weight: 600;
+}
+#sums table tr th {
+  text-align: left;
+  padding-right: 25px;
+}
+#sums table tr.amount-total th {
+  text-transform: uppercase;
+}
+#sums table tr.amount-total th, #sums table tr.amount-total td {
+  font-size: 16px;
+  font-weight: bold;
+}
+#sums table tr:last-child th {
+  text-transform: uppercase;
+}
+#sums table tr:last-child th, #sums table tr:last-child td {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 20px !important;
+  padding-bottom: 40px !important;
+}

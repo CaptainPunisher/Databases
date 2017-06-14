@@ -1,0 +1,46 @@
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='dropdown.css'>
+
+	<title>Mower Shop</title>
+</head>
+
+
+<body>
+<?php
+	require_once ('dbindex.php');
+	echo 'hello';
+?>
+	
+<h1>Welcome to the Lawnmower Shop Database</h1>
+<h4>What would you like to to?<h4>
+
+<?php echo 'goodbye';?>
+	
+<select id="ACTION">
+	<option value="ADD">ADD</option>
+	<option value="UPDATE">UPDATE</option>
+	<option value="DELETE">DELETE</option>
+</select>
+	
+
+<select id="TABLE">
+	<option value="CUSTOMER">CUSTOMER</option>
+	<option value="PART">PART</option>
+	<option value="SUPPLIER">SUPPLIER</option>
+	<option value="EMPLOYEE">EMPLOYEE</option>
+	<option value="EQUIPMENT">EQUIPMENT</option>
+	<option value="INVOICE">INVOICE</option>
+</select>
+	
+<button onclick="confirm('You are about to ACTION a TABLE')">OK</button>
+
+<br>
+	
+<?php
+ echo '<br> <h1>PHP SECTION</h1>';
+ echo "<br> <h4>PHP SECTION</h4>";
+ 
+?>
+</body>
+</html>
